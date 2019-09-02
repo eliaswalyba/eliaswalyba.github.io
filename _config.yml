@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Elias W. BA
+title: @eliaswalyba
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -20,7 +20,7 @@ description: A virtual proof that I'm awesome
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  A propos de moi: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
@@ -68,12 +68,12 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "eliaswalyba@gmail.com"
+  # facebook: deanattali
+  github: eliaswalyba
+  twitter: eliaswalyba
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: eliaswalyba
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
