@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: @eliaswalyba
+title: Elias W. BA
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -21,14 +21,10 @@ description: A virtual proof that I'm awesome
 # List of links in the navigation bar
 navbar-links:
   A propos de moi: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/hyper_filled.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -38,21 +34,21 @@ avatar: "/img/avatar-icon.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
+navbar-col: "#8e44ad"
+navbar-text-col: "#ecf0f1"
 navbar-children-col: "#F5F5F5"
-page-col: "#FFFFFF"
+page-col: "#ecf0f1"
 link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
+hover-col: "#34495e"
+footer-col: "#bdc3c7"
+footer-text-col: "#404040"
 footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
 # navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
+footer-img: "/img/triangles-1430105.png"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
@@ -60,7 +56,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: eliaswalyba
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -93,7 +89,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "eliaswalyba.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
