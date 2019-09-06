@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hey, moi c'est Elias !
-bigimg: img/me_1.jpg
+bigimg: img/me-1-darker.png
 subtitle: Bienvenue dans mon monde. Ici, on écrit des Hiéroglyphes pour batir des Piramides
 googlefonts: ["Montserrat"]
 ---
