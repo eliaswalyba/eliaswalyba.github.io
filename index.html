@@ -2,7 +2,7 @@
 layout: page
 title: eliaswalyba
 subtitle: AI. Machine Learning. Neuro Evolution. Generative Art
-bigimg: img/art-beautiful-bloom-1406863.jpg
+bigimg: img/site-banner.jpg
 use-site-title: true
 ---
 
@@ -20,7 +20,7 @@ use-site-title: true
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
+      Publiée le {{ post.date | date: "%-d %B %Y" }}
     </p>
 
     <div class="post-entry-container">
@@ -35,14 +35,14 @@ use-site-title: true
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="{{ post.url | relative_url }}" class="post-read-more">[Lire&nbsp;plus]</a>
         {% endif %}
       </div>
     </div>
 
     {% if post.tags.size > 0 %}
     <div class="blog-tags">
-      Tags:
+      Catégories:
       {% if site.link-tags %}
       {% for tag in post.tags %}
       <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
@@ -61,12 +61,12 @@ use-site-title: true
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Plus récentes</a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
+    <a href="{{ paginator.next_page_path | relative_url }}">Plus anciennes &rarr;</a>
   </li>
   {% endif %}
 </ul>
